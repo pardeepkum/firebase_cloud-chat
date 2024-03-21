@@ -17,8 +17,8 @@ class ChatService extends ChangeNotifier {
 
     ///create a new message
     Message newMessage = Message(
-        senderEmail: currentUserId,
-        senderId: currentUserEmail,
+        senderEmail: currentUserEmail,
+        senderId: currentUserId,
         receiverId: receiverId,
       timestamp: timestamp,
        message: message,
